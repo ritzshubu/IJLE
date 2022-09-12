@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Shubham and Shivendra",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "config-yaml": "^1.1.6",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-async-handler": "^1.1.4",
+    "express-fileupload": "^1.2.1",
+    "file-upload": "^0.0.0",
+    "forever": "^4.0.1",
+    "http-errors": "^1.7.2",
+    "mongoose": "^5.12.14",
+    "nodemailer": "^6.6.2",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "jest": "^27.0.4"
+  }
+}

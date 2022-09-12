@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'SF Pro';
+  src: url('./sfpro.otf') format('otf'), 
+  url('./sfpro.otf') format('otf');
+}
+
+*{
+  font-family: 'SF Pro', 'Open Sans', 'Arial', 'Helvetica', 'Roboto';
+}
